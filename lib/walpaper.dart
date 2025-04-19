@@ -82,7 +82,7 @@ class _WalpaperState extends State<Walpaper> {
                         MaterialPageRoute(
                           builder:
                               (context) => FullScreen(
-                                imageurl: image[index]['src']['large'],
+                                imageurl: image[index]['src']['large2x'],
                               ),
                         ),
                       );
